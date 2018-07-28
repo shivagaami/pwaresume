@@ -1,0 +1,46 @@
+{"details":{
+  "image":"arjunreddy.jpg",
+  "name":"ArjunReddy",
+  "phno":"+91-7386114757",
+  "email":"sethaddanki7@gmail.com",
+  "Address":"vasantha colony"
+},
+"career":{
+   "head": "career objective",
+    "para" : "write"
+},
+"education":[
+  {
+  "qualification":"Btech",
+  "institute":"MIC college",
+  "year":"2016-2020",
+  "percentage":"98%"
+},
+{
+  "qualification":"Intermediate",
+  "institute":"Narayana",
+  "year":"2014-2016",
+  "percentage":"98%"
+},
+{
+"qualification":"ssc",
+"institute":"SDA school",
+"year":"2013-2014",
+"percentage":"100%"
+  }
+],
+"skills":[{
+  "title":"Programming language",
+  "info":["C,C++,Java,Python,R"]
+
+},
+{
+  "title":"Data Bases",
+  "info":["oracle,sql,mysql,Tinydb"]
+},
+{
+  "title":"Operating systems",
+  "info":["windows,linux,ubuntu,android"]
+}
+]
+}

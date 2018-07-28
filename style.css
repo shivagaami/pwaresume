@@ -1,0 +1,106 @@
+.main{
+  border: 2px solid blue;
+  padding: 2%;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+
+}
+h2,h4{
+  color: red;
+}
+a{
+color: brown;
+font-size: 15px;
+word-wrap: break-word;
+}
+.left{
+  border: 2px solid green;
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+  text-align: center;
+  background-image: arjunreddy.jpg;
+}
+#name{
+  color: purple;
+}
+.left img{
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid green;
+  display: block;
+  margin: auto;
+}
+.table1{
+  width: 90%;
+  overflow-x: auto;
+}
+.right{
+  border: 2px solid red;
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+  text-align: center;
+  background-color: skyblue;
+}
+.right img{
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid green;
+  display: block;
+  margin: auto;
+}
+.table1{
+  width: 90%;
+  overflow-x: auto;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .main{
+    border: 2px solid blue;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  h2,h4{
+    color: red;
+  }
+  a{
+  color: brown;
+  font-size: 15px;
+  word-wrap: break-word;
+  }
+  .left{
+    border: 2px solid green;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+  }
+  #name{
+    color: purple;
+  }
+  .left img{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: block;
+    margin: auto;
+  }
+  .right{
+    border: 2px solid red;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .right img{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: block;
+    margin: auto;
+  }
+}
